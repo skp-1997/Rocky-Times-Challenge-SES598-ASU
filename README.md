@@ -2,7 +2,7 @@
 This code is the part of midterm assignment for SES 598 Autonomous Exploration System Course at Arizona State University (ASU). The project involves moving the quadcopter close to a probe for data mulling, later move towards precariously balanced rock, revolve around it and create PointCloud map using ORBSLAM2 and land safely on Rover.
 
 # Challenge details and objectives
-<<< ADD IMAGE HERE >>>
+<img width="837" alt="Screenshot 2023-05-03 at 10 33 41 PM" src="https://user-images.githubusercontent.com/97504177/236119781-4f0b61ad-53ec-4eb5-a5ae-0b564a6eda3f.png">
 The phase-1 world consist of bishop mars terrain along with a probe, a precariously balanced rock, a rover and a quadcopter.
 The task includes below points in the given sequence
 1. Set offbaord and go to the probe for data mulling (distanceThreshold = 1 meter)
@@ -11,7 +11,8 @@ The task includes below points in the given sequence
 4. All the above sequence of action must happened autonomoulsy without human intervention in between.
 
 # Demonstration
-<<< ADD VIDEO HERE >>>
+
+https://user-images.githubusercontent.com/97504177/236119033-6c1accd3-45f5-4fe9-8ea5-d87159a41130.mp4
 
 # Installation
 
