@@ -22,26 +22,32 @@ Or you can clone and build using https://github.com/Open-UAV/cps_challenge_2020.
 Install ORBSLAM2 by following the github repository https://github.com/raulmur/ORB_SLAM2.git
 
 Follow below instruction to clone the midterm.py in ./scripts/ folder
+```
 cd cps_challenge/scripts
+```
+```
 git clone https://github.com/skp-1997/Rocky-Times-challenge-SES598-ASU.git
+```
 
 # Running the code
 
 Run the phase-1 world of gazebo using the command
+```
 roslaunch cps_challenge_2020 phase-1.launch
+```
 
 Run the ORBSLAM2 using the command
+```
 <<<< COMMAND  >>>>
+```
 
 Run the program using the command
+```
 rosrun cps_challenge_2020 midterm.py or python midterm.py
+```
 
 # Pre-requisites
 
 1. Ubuntu 18.04
 2. ROS1 MELODIC
 3. Python 2.7
-
-# Common Debug Issues
-
-<<<< DEBUG  >>>>
