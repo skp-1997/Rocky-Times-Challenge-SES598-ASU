@@ -19,7 +19,10 @@ https://user-images.githubusercontent.com/97504177/236119033-6c1accd3-45f5-4fe9-
 Register on https://cps-vo.org/group/CPSchallenge to get access to pre-configured docker container with 3D graphics, ROS, Gazebo, and PX4 flight stack.
 Or you can clone and build using https://github.com/Open-UAV/cps_challenge_2020.git
 
-Install ORBSLAM2 by following the github repository https://github.com/raulmur/ORB_SLAM2.git
+Install ORBSLAM2 by following the github repository
+```
+https://github.com/raulmur/ORB_SLAM2.git
+```
 
 Follow below instruction to clone the midterm.py in ./scripts/ folder
 ```
@@ -38,7 +41,7 @@ roslaunch cps_challenge_2020 phase-1.launch
 
 Run the ORBSLAM2 using the command
 ```
-<<<< COMMAND  >>>>
+rosrun ORB_SLAM2 Mono PATH_TO_VOCABULARY PATH_TO_SETTINGS_FILE /camera/image_raw:='your camera topic'
 ```
 
 Run the program using the command
@@ -48,6 +51,7 @@ rosrun cps_challenge_2020 midterm.py or python midterm.py
 
 # Pre-requisites
 
-1. Ubuntu 18.04
-2. ROS1 MELODIC
-3. Python 2.7
+1. Python 2.7
+2. Ubuntu 18.04
+3. ROS1 MELODIC
+4. Gazebo 9.6
